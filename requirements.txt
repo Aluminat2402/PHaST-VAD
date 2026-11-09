@@ -1,0 +1,10 @@
+# Versions used for the reported results (Python 3.12, CUDA 12.1)
+torch==2.5.1
+torchvision==0.20.1
+transformers==5.17.0
+decord==0.6.0
+accelerate==1.15.0
+numpy
+pillow
+# only for stream.py --live (camera / RTSP input)
+opencv-python
